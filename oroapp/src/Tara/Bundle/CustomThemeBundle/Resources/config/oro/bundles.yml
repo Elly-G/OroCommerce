@@ -1,0 +1,2 @@
+bundles:
+    - { name: Tara\Bundle\CustomThemeBundle\TaraCustomThemeBundle, priority: 10 }
