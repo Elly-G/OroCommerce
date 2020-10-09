@@ -1,0 +1,9 @@
+{% block _tara_product_cod_oem_widget %}
+    {% if product.test is not null %}
+        <div {{ block('block_attributes') }}>
+            {%- spaceless -%}
+                CodOEM: <span class="product-test" itemprop="codOEM">{{- product.test -}}</span>
+            {%- endspaceless -%}
+        </div>
+    {% endif %}
+{% endblock %}

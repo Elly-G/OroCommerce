@@ -1,0 +1,12 @@
+layout:
+  actions:
+    - '@setBlockTheme':
+        themes: 'cod_oem.html.twig'
+    - '@add':
+        id: tara_product_cod_oem
+        parentId: product_view_primary_container
+        siblingId: product_view_attribute_group_general_attribute_text_sku
+        blockType: block
+        options:
+          vars:
+            product: '=data["oro_product_variant"].getProductVariantOrProduct(data)'

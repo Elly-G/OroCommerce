@@ -48,9 +48,13 @@
         "slick-carousel": "1.6.0",
         "timepicker": "1.11.*",
         "underscore": "1.9.*",
+        "webpack-cli": "^3.3.12",
         "whatwg-fetch": "3.1.*",
         "when": "2.4.0",
         "xregexp": "3.2.*"
     },
-    "private": true
+    "private": true,
+    "devDependencies": {
+        "webpack": "^4.44.2"
+    }
 }

@@ -1,4 +1,0 @@
-label:  customtheme
-logo:   bundles/public/themes/customtheme/images/flower.png
-parent: default
-groups: [ commerce ]

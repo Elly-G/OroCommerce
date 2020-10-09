@@ -127,7 +127,7 @@ oro_require_js:
         preserveLicenseComments: true
 
 oro_theme:
-    active_theme: customtheme
+    active_theme: demotheme
 
 oro_message_queue:
     transport:

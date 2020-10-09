@@ -51,7 +51,9 @@
     "phpunit/phpcov": "5.0.*",
     "symfony/phpunit-bridge": "4.3.*",
     "friendsofphp/php-cs-fixer": "2.12.6",
-    "oro/twig-inspector": "1.0.*"
+    "oro/twig-inspector": "1.0.*",
+    "symfony/profiler-pack": "^1.0",
+    "symfony/var-dumper": "^4.4"
   },
   "config": {
     "component-dir": "public/bundles/components",

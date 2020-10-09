@@ -1,0 +1,2 @@
+bundles:
+  - { name: OroDemo\Bundle\ThemeBundle\DemoThemeBundle, priority: 50}

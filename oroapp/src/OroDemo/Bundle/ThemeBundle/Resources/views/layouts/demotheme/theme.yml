@@ -1,0 +1,5 @@
+parent: default
+label: Demo theme
+description: Demo theme
+groups: [ commerce ]
+logo: bundles/demotheme/images/logo/logo.png
