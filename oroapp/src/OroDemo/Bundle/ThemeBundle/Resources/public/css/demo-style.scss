@@ -1,0 +1,53 @@
+$base-color: #8ef5ee;
+$header-text-color: #000000;
+$footer-text-color: #000000;
+$second-color: #d1d1d1;
+
+.page-header {
+    background-color: #fff;
+    background-image: none;
+
+    .topbar {
+        background-color: $base-color;
+        color: $header-text-color;
+
+        a {
+            color: $header-text-color;
+        }
+        .oro-toolbar__list {
+            a {
+                color: $base-color;
+            }
+        }
+    }
+}
+
+.page-footer {
+    background-color: $base-color;
+    color: $footer-text-color;
+
+    a, h5, h6, .h5, .h6 {
+        color: $footer-text-color;
+    }
+}
+
+.scroll-top {
+    color: $second-color;
+}
+
+.oro-toolbar__link {
+    color: #8ef5ee;
+}
+
+.product-view {
+    .product-price {
+        .product-price-unit {
+            display: inline;
+            margin-right: 40px;
+        }
+        .product-price-value {
+            display: inline;
+            font-weight: bold;
+        }
+    }
+}

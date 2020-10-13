@@ -1,0 +1,7 @@
+services:
+  oro_product.datagrid_theme_helper:
+    class: 'OroDemo\Bundle\ThemeBundle\DataGrid\DemoDataGridThemeHelper'
+    public: true
+    arguments:
+      - '@request_stack'
+      - '@session'

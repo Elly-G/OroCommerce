@@ -1,0 +1,12 @@
+layout:
+  actions:
+    - '@setBlockTheme':
+         themes: 'datagrid_cod_oem.html.twig'
+    - '@add':
+        id: tara_product_cod_oem
+        parentId: product_datagrid_row_product_content
+        siblingId: product_datagrid_row_product_sku
+        blockType: block
+        options:
+          vars:
+#             product: '=data["oro_product_variant"].getProductVariantOrProduct(data)'

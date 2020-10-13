@@ -1,4 +1,4 @@
-logo: bundles/demotheme/images/logo/logo.png
+logo: bundles/demotheme/images/logo/color-logo.jpg
 label: Demo theme
 styles:
-  - bundles/demotheme/css/style.css
+  - bundles/demotheme/css/demo-style.css
